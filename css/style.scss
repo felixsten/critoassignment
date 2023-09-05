@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+
+html, body {
+    color: #191919;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.btn-yellow {
+    background-color: #F9D783;
+    border: 1px solid F9D783;
+    color: #191919;
+    text-decoration: none;
+    padding: 8px 25px;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 25px;
+
+    i {
+        margin-left: 6px;
+        font-size: 0.9em;
+    }
+
+    &:hover {
+        background-color: #b4a480;
+    }
+
+}
+
+header {
+    background-color: #F0EFE9;
+    display:flex;
+    padding: 20px
+
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    align-items:center;
+    justify-content: space-between;
+
+    .bars {
+        font-size: 25px;
+
+        @media (min-width: 992px) {
+            display: none;
+        }
+    }
+
+    .topmenu {
+        display: none;
+        flex: 1;
+        
+
+        @media (min-width: 992px) {
+            display: block;
+
+        .topinfo {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #DAD9D3;
+            
+            @media (min-width: 1200px) {
+                justify-content: space-between;
+            }
+
+            .contactinfo {
+                display: none;
+                align-items: center;
+               
+                @media (min-width: 1200px) {
+                    display: flex;
+                }
+
+                .cinfo-box {
+                    padding-right: 20px;
+                    margin-right: 25px;
+                    border-right: 1px solid #DAD9D3;
+                    font-size: 15px;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 300;
+
+                    i {
+                        margin-right: 4px;
+                        font-size: 1.2em;
+                    }
+
+                    &.last {
+                        border: none;
+                    }
+
+                }
+            }
+
+            .social-media {
+                a {
+                    color:#191919;
+                    font-size: 1.3rem;
+                    margin-left: 10px;
+
+                    &:hover {
+                        color:#7c7c7c
+                    }
+                }
+            }
+        }
+
+        .main-menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+
+            nav {
+                a {
+                    color:#191919;
+                    text-decoration: none;
+                    margin-right: 30px;
+
+                    &.active {
+                        font-weight: 500;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+
+
+        }
+
+        }
+    }
+}
+
+
