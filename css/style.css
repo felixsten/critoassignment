@@ -208,3 +208,25 @@ header .container .topmenu {
     display: block;
   }
 }
+
+.companylogos {
+  align-items: center;
+}
+.companylogos .container {
+  display: none;
+  justify-content: space-between;
+}
+@media (min-width: 768px) {
+  .companylogos .container {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    display: block;
+  }
+}
+@media (min-width: 1200px) {
+  .companylogos .container {
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+  }
+}

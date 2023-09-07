@@ -239,4 +239,27 @@ header {
     }
 }
 
+.companylogos {
+    align-items: center;
+
+    
+
+    .container {
+        display: none;
+        justify-content: space-between;
+        @media (min-width: 768px) {
+            padding-top: 36px;
+            padding-bottom: 36px;
+            display: block;
+            
+        }
+        @media (min-width: 1200px) {
+            padding-top: 72px;
+            padding-bottom: 72px;
+            display: flex;
+            
+        }
+    }
+}
+
 
