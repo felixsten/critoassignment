@@ -314,6 +314,78 @@ header {
     }
 }
 
+.features {
+
+    .container {
+        border: 1px solid #DAD9D3;
+        padding: 20px;
+        padding-top: 40px;
+        @media (min-width: 1200px) {
+            padding: 100px;
+        }
+        
+        
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+
+            @media (min-width: 1200px) {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+            
+            grid-template-areas: "text text"
+                                    "text text";
+                
+            .section-title {
+                grid-area: text;
+                padding-top: 0px;
+                padding-right: 0px;
+                text-align: center;
+                justify-content: center;
+
+                
+
+                h2 {
+                    font-size: 34px;
+                }
+
+                @media (min-width: 1200px) {
+                    text-align: left;
+                    padding-right: 80px;
+                    h2 {
+                        font-size: 45px;
+                    }
+                }
+                
+                div {
+                    display: flex;
+                    margin-top: 40px;
+                    justify-content: center;
+                    .btn-yellow {
+                        padding: 12px 40px;
+
+                        @media (min-width: 1200px) {
+                            padding: 12px 120px;
+                        }
+                    }
+                }
+            }
+
+            article {
+                
+                i {
+                    font-size: 30px;
+                    margin-bottom: 15px;
+                    
+                }
+            }
+        }
+
+    }
+}
+
 .project-and-case {
     .container {
 

@@ -278,6 +278,64 @@ header .container .topmenu {
   }
 }
 
+.features .container {
+  border: 1px solid #DAD9D3;
+  padding: 20px;
+  padding-top: 40px;
+}
+@media (min-width: 1200px) {
+  .features .container {
+    padding: 100px;
+  }
+}
+.features .container .feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  grid-template-areas: "text text" "text text";
+}
+@media (min-width: 1200px) {
+  .features .container .feature-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.features .container .feature-grid .section-title {
+  grid-area: text;
+  padding-top: 0px;
+  padding-right: 0px;
+  text-align: center;
+  justify-content: center;
+}
+.features .container .feature-grid .section-title h2 {
+  font-size: 34px;
+}
+@media (min-width: 1200px) {
+  .features .container .feature-grid .section-title {
+    text-align: left;
+    padding-right: 80px;
+  }
+  .features .container .feature-grid .section-title h2 {
+    font-size: 45px;
+  }
+}
+.features .container .feature-grid .section-title div {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.features .container .feature-grid .section-title div .btn-yellow {
+  padding: 12px 40px;
+}
+@media (min-width: 1200px) {
+  .features .container .feature-grid .section-title div .btn-yellow {
+    padding: 12px 120px;
+  }
+}
+.features .container .feature-grid article i {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
