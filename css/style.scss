@@ -450,3 +450,172 @@ header {
 
 
 }
+
+.article-and-news {
+    .container {
+        
+        .news-grid {
+            
+
+            .section-title {
+                padding-bottom: 35px;
+                display: grid;
+                            grid-template-areas: "sectiontitletop sectiontitletop sectiontitletop"
+                                    "sectiontitle sectiontitle articlebutton"
+                                    "mobilearticlebutton mobilearticlebutton mobilearticlebutton";
+                
+                p {
+                    grid-area: sectiontitletop;
+                }
+                align-items: center;
+            }
+
+            .news-button {
+                grid-area: mobilearticlebutton;
+                padding-top: 15px;
+
+                @media (min-width: 1200px) {
+                grid-area: articlebutton;
+                display: flex;
+                justify-content: right;
+                margin-right: -20px;
+            }
+                .btn-transparent {
+                    padding: 18px;
+                    padding-right: 30px;
+                    padding-left: 30px;
+                }
+            }
+        }
+            
+            
+       
+
+            .article-news {
+
+                @media (min-width: 1200px) {
+
+                
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: auto 1fr auto;
+                gap: 30px;
+                }
+
+
+                
+                img {
+                    width: 100%;
+                }
+
+                @media (min-width: 768px) {
+                    img {
+                        width: 75%;
+                    }
+                }
+
+                @media (min-width: 1200px) {
+                    img {
+                        width: 100%;
+                    }
+                }
+                article {
+                    
+
+                    p {
+                        padding-top: 12px;
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: #191919;
+                    }
+
+                    h3 {
+                        font-weight: 700;
+                        font-size: 22px;
+                        &:hover {
+                            text-decoration: underline;
+                        
+                        }
+                    }
+                    padding-top: 10px;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+
+    .articles-select {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 100px;
+        color: #DAD9D3;
+        
+
+
+    }
+        
+
+
+}
+
+.news-updates-signup {
+    background-color: #F0EFE9;
+    padding-top: 105px;
+    padding-bottom: 105px;
+    .container {
+        
+        .news-updates {
+            
+            @media (min-width: 1200px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            }
+            
+            
+            h2 {
+                color:#191919;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 30px;
+                margin-right: auto;
+                @media (min-width: 768px) {
+                    font-size: 45px;
+                }
+
+                
+                
+                
+                
+            }
+
+            div {
+                gap: 10px;
+                    input {
+                        padding: 12px 30px;
+                        border-radius: 25px;
+                        border: none;
+                        margin-bottom: 30px;
+                        @media (min-width: 768px) {
+                            margin-bottom: 0px;
+                        }
+                        
+                    
+                    
+                
+
+                
+                    
+                    .btn-yellow {
+                        padding: 12px 30px;
+                        border: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
