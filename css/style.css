@@ -188,6 +188,14 @@ header .container .topmenu {
 
 .showcase {
   background-color: #F0EFE9;
+  position: relative;
+  z-index: 0;
+}
+.showcase .background-lines-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 .showcase .container {
   display: flex;
@@ -336,6 +344,116 @@ header .container .topmenu {
   margin-bottom: 15px;
 }
 
+.about-company {
+  position: relative;
+  z-index: 0;
+}
+.about-company .container {
+  margin-top: 120px;
+  display: block;
+}
+.about-company .container .background-lines-2 {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  top: 35px;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .about-company .container .background-lines-2 {
+    display: block;
+  }
+}
+@media (min-width: 1920px) {
+  .about-company .container .background-lines-2 {
+    left: 325px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .container {
+    display: flex;
+  }
+}
+.about-company .container .about .about-image {
+  display: none;
+  margin-left: 55px;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .about-company .container .about .about-image {
+    display: block;
+  }
+}
+.about-company .container .about .blue-card {
+  display: none;
+  background-color: #BEEBFF;
+  width: 368px;
+  height: 180px;
+  padding: 38px 24px;
+  position: absolute;
+  z-index: 3;
+  bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .about-company .container .about .blue-card {
+    display: block;
+  }
+}
+.about-company .container .about .blue-card .name-text {
+  display: inline;
+  color: #191919;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+.about-company .container .about .blue-card .red-text {
+  display: inline;
+  color: #F94D1C;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.about-company .container .about .blue-card p {
+  margin-top: 20px;
+}
+.about-company .container .about-information {
+  padding-left: 0px;
+  padding-top: 25px;
+}
+@media (min-width: 1200px) {
+  .about-company .container .about-information {
+    padding-left: 190px;
+    padding-top: 0px;
+  }
+}
+.about-company .container .about-information .section-title {
+  padding-top: 0px;
+}
+.about-company .container .about-information .info-text {
+  padding-top: 20px;
+  padding-right: 0px;
+  color: #5e5e5e;
+}
+.about-company .container .about-information .buttonsparent div {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.about-company .container .about-information .buttonsparent div .btn-transparent {
+  padding: 12px 17px;
+  font-size: 16px;
+  margin-left: 24px;
+}
+.about-company .container .about-information .buttonsparent div .btn-transparent i {
+  margin-left: 3px;
+}
+.about-company .container .about-information .buttonsparent div p {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
@@ -462,6 +580,14 @@ header .container .topmenu {
   background-color: #F0EFE9;
   padding-top: 105px;
   padding-bottom: 105px;
+  position: relative;
+  z-index: 0;
+}
+.news-updates-signup .background-lines-3 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  z-index: -1;
 }
 @media (min-width: 1200px) {
   .news-updates-signup .container .news-updates {
@@ -483,21 +609,18 @@ header .container .topmenu {
     font-size: 45px;
   }
 }
-.news-updates-signup .container .news-updates div {
-  gap: 10px;
-}
-.news-updates-signup .container .news-updates div input {
+.news-updates-signup .container .news-updates form input {
   padding: 12px 30px;
   border-radius: 25px;
   border: none;
   margin-bottom: 30px;
 }
 @media (min-width: 768px) {
-  .news-updates-signup .container .news-updates div input {
+  .news-updates-signup .container .news-updates form input {
     margin-bottom: 0px;
   }
 }
-.news-updates-signup .container .news-updates div input .btn-yellow {
+.news-updates-signup .container .news-updates form input .btn-yellow {
   padding: 12px 30px;
   border: none;
 }
