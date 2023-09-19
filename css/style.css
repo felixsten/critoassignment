@@ -624,3 +624,72 @@ header .container .topmenu {
   padding: 12px 30px;
   border: none;
 }
+
+footer {
+  background-color: #0E1021;
+  color: #F0EFE9;
+  padding-top: 115px;
+  position: relative;
+  z-index: 0;
+}
+footer .background-lines-5 {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  bottom: 61px;
+  right: 0;
+}
+@media (min-width: 768px) {
+  footer .background-lines-5 {
+    display: block;
+  }
+}
+footer .container .footerinfo {
+  display: block;
+  justify-content: space-between;
+  padding-bottom: 75px;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  footer .container .footerinfo {
+    display: flex;
+  }
+}
+footer .container .footerinfo .critofooter {
+  margin-right: 100px;
+  width: 350px;
+}
+footer .container .footerinfo .critofooter p {
+  margin-top: 25px;
+}
+footer .container .footerinfo div {
+  width: 170px;
+}
+footer .container .footerinfo div h3 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  padding-bottom: 16px;
+  font-size: 22px;
+}
+footer .container .footerinfo div a {
+  text-decoration: none;
+  color: #F0EFE9;
+}
+footer .container .footerinfo div a:hover {
+  text-decoration: underline;
+}
+footer .container .footerbottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+footer .container .footerbottom .social-media a {
+  padding-left: 20px;
+  color: #F0EFE9;
+}
+footer .container .footerbottom .social-media a:hover {
+  color: #7c7c7c;
+}
+footer .footerborder {
+  border-top: 1px solid #3e404d;
+}
