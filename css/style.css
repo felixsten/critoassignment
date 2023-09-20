@@ -454,6 +454,81 @@ header .container .topmenu {
   font-family: "Inter", sans-serif;
 }
 
+.our-services {
+  background-color: #F0EFE9;
+  margin-top: 120px;
+  padding-bottom: 215px;
+  position: relative;
+}
+.our-services .background-lines-4 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.our-services .container .section-title {
+  width: 560px;
+}
+.our-services .container .section-title h2 {
+  width: 300px;
+}
+@media (min-width: 768px) {
+  .our-services .container .section-title h2 {
+    width: auto;
+  }
+}
+.our-services .container .services {
+  display: block;
+  gap: 30px;
+}
+@media (min-width: 1200px) {
+  .our-services .container .services {
+    display: flex;
+  }
+}
+.our-services .container .services div {
+  background-color: #FFFFFF;
+  padding: 20px 30px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+.our-services .container .services div:hover {
+  background-color: #F9D783;
+}
+.our-services .container .services div .topborder {
+  border-bottom: 2px solid #191919;
+  width: 40px;
+  background-color: transparent;
+}
+.our-services .container .services div h3 {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+.our-services .container .services div p {
+  margin-bottom: 26px;
+}
+.our-services .container .services div .circlebutton {
+  display: flex;
+  justify-content: right;
+  background-color: transparent;
+}
+.our-services .container .services div .circlebutton .btn-black {
+  padding: 14px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  justify-content: right;
+}
+.our-services .container .services div .circlebutton .btn-black i {
+  margin-left: 0px;
+}
+.our-services .container .browse-services {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .project-and-case .container .section-title {
   text-align: center;
 }
