@@ -626,6 +626,92 @@ header {
     }
 }
 
+.why-choose-us {
+    position: relative;
+    z-index: 1;
+    .backgroundblock {
+        display: none;
+        @media (min-width: 1200px) {
+            display: block;
+        }
+        position: absolute;
+        background-color: #F0EFE9;
+        width: 1057px;
+        height: 425px;
+        z-index: -1;
+        right: 0;
+        top: 265px;
+    }
+
+    .container {
+
+        .titleparent {
+            display: flex;
+            justify-content: space-between;
+            .section-title {
+                width: 400px;
+                padding-bottom: 40px;
+                
+            }
+
+            
+        }
+        
+        
+            
+        .sectionparent {
+            display: flex;
+            justify-content: space-between;
+        
+            .choose-us {
+                    
+                div {
+                    display: flex;
+                    
+
+                    h3 {
+                        font-family: 'DM Sans', sans-serif;
+                        font-size: 22px;
+                        font-weight: 700; 
+                    }
+
+                    i {
+                        padding: 7px;
+                        margin-right: 20px;
+                        font-size: 30px;
+                        border: 2px solid #e7e7e7;
+                        border-radius: 50px;
+                    }
+                    }
+
+                    p {
+                        margin-left: 70px;
+                        padding-bottom: 40px;
+                    }
+
+                    
+                
+            }
+
+            .choose-us-img {
+                display: none;
+                @media (min-width: 1200px) {
+                    display: block;
+                }
+                margin-top: -278px;
+            }
+        }
+
+
+        
+        
+
+
+
+
+    }
+}
+
 .project-and-case {
     .container {
 
