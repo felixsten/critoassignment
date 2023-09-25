@@ -925,3 +925,23 @@ footer .container .footerbottom .social-media a:hover {
 footer .footerborder {
   border-top: 1px solid #3e404d;
 }
+
+.contactscreen {
+  background-color: #F0EFE9;
+  padding: 100px;
+}
+.contactscreen .container div {
+  display: flex;
+}
+.contactscreen .container div .titlehome {
+  margin-right: 20px;
+  font-weight: 300;
+}
+.contactscreen .container div .titlecontact {
+  font-weight: 500;
+}
+.contactscreen .container div h1 {
+  font-size: 56px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+}

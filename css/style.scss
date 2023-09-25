@@ -1165,3 +1165,31 @@ footer {
         border-top: 1px solid #3e404d;
     }
 }
+
+.contactscreen {
+    background-color: #F0EFE9;
+    padding: 100px;
+    .container {
+        
+        div {
+            display: flex;
+
+            .titlehome {
+                margin-right: 20px;
+                font-weight: 300;
+            }
+
+            .titlecontact {
+                font-weight: 500;
+            }
+
+            h1 {
+                font-size: 56px;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+            }
+        }
+
+
+    }
+}
