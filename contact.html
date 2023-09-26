@@ -41,10 +41,10 @@
             </div>
             <div class="main-menu">
                 <nav>
-                    <a class="active" href="index.html">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="services.html">Service</a>
                     <a href="news.html">News</a>
-                    <a href="contact.html">Contact</a>
+                    <a class="active" href="contact.html">Contact</a>
                 </nav>
                 <a class="btn-yellow" href="login.html">Login <i class="fa-solid fa-arrow-right-long"></i></a>
 
@@ -57,7 +57,10 @@
     </header>
 
     <main>
-        <section class="contactscreen">
+
+        <!-- contact title -->
+        <section class="contacttitle">
+            <img class="background-lines-6" src="images/backgroundlines6.svg" alt="">
             <div class="container">
                 <div class="center-content">
                     <p class="titlehome">Home</p>
@@ -69,6 +72,137 @@
             </div>
         </section>
 
+        <!-- contact cards -->
+        <section class="contactcards">
+            <div class="container">
+                <div class="cardparent">
+                    <div class="card">
+                        <div class="cardicon">
+                            <div>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <h3>Visit us</h3>
+                        </div>
+                        <div class="cardinfo">
+                            <p>Sveavägen 31</p>
+                            <p>111 34 STOCKHOLM</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardicon">
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <h3>Call us</h3>
+                        </div>
+                        <div class="cardinfo">
+                            <p>+46 (8) 121 470 50</p>
+                            <p>+46 (8) 121 470 51</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cardicon">
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <h3>Email us</h3>
+                        </div>
+                        <div class="cardinfo">
+                            <p>info@crito.com</p>
+                            <p>support@crito.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact form -->
+        <section class="contactform">
+            <div class="container">
+                <div class="formtitle">
+                    <h2>Leave us a message for any information.</h2>
+                </div>
+                <div class="contactmessage">
+                    <form method="post">
+                        <div>
+                            <input type="text" name="name" id="name" placeholder="Name*">
+                        </div>
+                        <div>
+                            <input type="text" name="email" id="email" placeholder="Email*">
+                        </div>
+                        <div>
+                            <textarea name="message" id="message" cols="80" rows="5" placeholder="Your Message*"></textarea>
+                        </div>
+                        <button type="submit" class="btn-yellow" href="messages.html">Send Message <i class="fa-solid fa-arrow-right-long"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- map location -->
+        <section class="contactmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4840.095506662896!2d18.053415526706626!3d59.33279694936276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f77e001d880a3%3A0x2c29d3c569e23670!2sNorrmalm%2C%20Stockholm!5e0!3m2!1ssv!2sse!4v1695727510137!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
     </main>
+
+    <footer>
+        <img class="background-lines-5" src="images/backgroundlines5.svg" alt="">
+        <div class="container">
+            <div class="footerinfo">
+                <div class="critofooter">
+                    <a href="index.html"><img src="images/Logowhite.svg" alt="Crito logo"></a>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat obcaecati voluptas voluptates! Voluptates laborum nam ratione minus necessitatibus, iure praesentium.</p>
+                </div>
+                <div>
+                    <h3>Company</h3>
+                    <a href="about.html"><p>About</p></a>
+                    <a href="features.html"><p>Features</p></a>
+                    <a href="works.html"><p>Works</p></a>
+                    <a href="career.html"><p>Career</p></a>
+                </div>
+                <div>
+                    <h3>Help</h3>
+                    <a href="support.html"><p>Customer Support</p></a>
+                    <a href="delivery.html"><p>Delivery Details</p></a>
+                    <a href="terms.html"><p>Terms & Conditions</p></a>
+                    <a href="policy.html"><p>Privacy Policy</p></a>
+                </div>
+                <div>
+                    <h3>Resources</h3>
+                    <a href="ebooks.html"><p>Free eBooks</p></a>
+                    <a href="development"><p>Development Tutorial</p></a>
+                    <a href="blog.html"><p>How to - Blog</p></a>
+                    <a href="playlist.html"><p>Youtube Playlist</p></a>
+                </div>
+                <div>
+                    <h3>Link</h3>
+                    <a href="ebooks.html"><p>Free eBooks</p></a>
+                    <a href="development"><p>Development Tutorial</p></a>
+                    <a href="blog.html"><p>How to - Blog</p></a>
+                    <a href="playlist.html"><p>Youtube Playlist</p></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footerborder"></div>
+
+        <div class="container">
+            <div class="footerbottom">
+                <div>
+                    <p>© 2023 Crito - Consulting Company Inc. All Rights Reserved.</p>
+                </div>
+                <div class="social-media">
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
