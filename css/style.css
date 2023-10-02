@@ -16,6 +16,7 @@ html, body {
   font-weight: 500;
   font-size: 16px;
   border-radius: 25px;
+  transition: background-color 0.2s ease-in-out;
 }
 .btn-yellow i {
   margin-left: 6px;
@@ -35,6 +36,7 @@ html, body {
   font-weight: 500;
   font-size: 16px;
   border-radius: 25px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .btn-black i {
   margin-left: 6px;
@@ -55,6 +57,7 @@ html, body {
   font-weight: 500;
   font-size: 16px;
   border-radius: 25px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 .btn-transparent i {
   margin-left: 6px;
@@ -163,6 +166,7 @@ header .container .topmenu {
     color: #191919;
     font-size: 1.3rem;
     margin-left: 10px;
+    transition: color 0.2s ease-in-out;
   }
   header .container .topmenu .topinfo .social-media a:hover {
     color: #7c7c7c;
@@ -918,6 +922,7 @@ footer .container .footerbottom {
 footer .container .footerbottom .social-media a {
   padding-left: 20px;
   color: #F0EFE9;
+  transition: color 0.2s ease-in-out;
 }
 footer .container .footerbottom .social-media a:hover {
   color: #7c7c7c;

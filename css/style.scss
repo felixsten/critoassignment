@@ -17,6 +17,7 @@ html, body {
     font-weight: 500;
     font-size: 16px;
     border-radius: 25px;
+    transition: background-color 0.2s ease-in-out;
 
     i {
         margin-left: 6px;
@@ -39,6 +40,7 @@ html, body {
     font-weight: 500;
     font-size: 16px;
     border-radius: 25px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     i {
         margin-left: 6px;
@@ -62,6 +64,7 @@ html, body {
     font-weight: 500;
     font-size: 16px;
     border-radius: 25px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     i {
         margin-left: 6px;
@@ -177,7 +180,7 @@ header {
                     color:#191919;
                     font-size: 1.3rem;
                     margin-left: 10px;
-
+                    transition: color 0.2s ease-in-out;
                     &:hover {
                         color:#7c7c7c
                     }
@@ -196,6 +199,7 @@ header {
                     color:#191919;
                     text-decoration: none;
                     margin-right: 30px;
+                    
 
                     &.active {
                         font-weight: 500;
@@ -1151,6 +1155,7 @@ footer {
                 a {
                     padding-left: 20px;
                     color: #F0EFE9;
+                    transition: color 0.2s ease-in-out;
 
                     &:hover {
                         color: #7c7c7c;
